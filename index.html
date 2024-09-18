@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Platform</title>
+    <link rel="stylesheet" href="style1.css">
+    <script>
+        // theme toggle script
+        document.addEventListener('DOMContentLoaded', () => {
+            const toggleButton = document.getElementById('theme-toggle');
+            toggleButton.addEventListener('click', () => {
+                document.body.classList.toggle('dark-mode');
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Online Courses</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#experts">Industry Experts</a></li> 
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <button id="theme-toggle" class="btn">Switch Theme</button>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h2><br>Learn from the Best</h2>
+        <p>Join our online platform and enhance your skills with expert-led courses.</p>
+        <a href="#courses" class="btn1">Explore Courses</a>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <div class="course-container">
+            <div class="course-card">
+                <img src="image1.jpeg" alt="C Programming Poster" class="course-img">
+                <h3>C Programming</h3>
+                <p>Master the fundamentals of C programming and build a strong foundation in software development.</p>
+            </div>
+            <div class="course-card">
+                <img src="image2.png" alt="C++ Programming Poster" class="course-img">
+                <h3>C++ Programming</h3>
+                <p>Learn advanced concepts in C++ and object-oriented programming for complex problem-solving.</p>
+            </div>
+            <div class="course-card">
+                <img src="image3.jpg" alt="Python Programming Poster" class="course-img">
+                <h3>Python Programming</h3>
+                <p>Get hands-on experience with Python, one of the most popular and versatile programming languages.</p>
+            </div>
+            <div class="course-card">
+                <img src="image4.jpeg" alt="Java Programming Poster" class="course-img">
+                <h3>Java Programming</h3>
+                <p>Explore Java and its applications in enterprise-level software development.</p>
+            </div>
+            <div class="course-card">
+                <img src="image5.jpeg" alt="Web Development Poster" class="course-img">
+                <h3>Web Development</h3>
+                <p>Learn the essentials of web development, including HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="course-card">
+                <img src="image7.jpg" alt="Data Science Poster" class="course-img">
+                <h3>Data Science</h3>
+                <p>Understand data analysis, visualization, and machine learning with practical examples.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are dedicated to providing high-quality educational content to help you succeed in your programming journey. Our courses are designed by industry experts to offer practical knowledge and skills.</p>
+        
+        <!-- Industry Experts Section -->
+        <div class="industry-experts" id="experts">
+            <h3>Meet Our Experts</h3>
+            <div class="expert-card">
+                <img src="image8.jpg" alt="Expert 1" class="expert-img">
+                <h4>Dr. Jane Smith</h4>
+                <p><strong>Experience:</strong> With over 20 years in the software industry, Dr. Smith has led multiple large-scale projects in C++ and Java. She holds a PhD in Computer Science and has authored several books on programming.</p>
+                <p><strong>Specializations:</strong> Advanced C++, Java, Software Engineering</p>
+            </div>
+            <div class="expert-card">
+                <img src="image10.jpg" alt="Expert 2" class="expert-img">
+                <h4>Mr. John Doe</h4>
+                <p><strong>Experience:</strong> Mr. Doe is a data scientist with a focus on machine learning and data analytics. He has worked with Fortune 500 companies to implement data-driven strategies and holds a Master’s degree in Data Science.</p>
+                <p><strong>Specializations:</strong> Python, Data Science, Machine Learning</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Online Courses. All rights reserved.</p>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
