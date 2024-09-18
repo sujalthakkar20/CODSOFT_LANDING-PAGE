@@ -9,7 +9,7 @@
   - Start this project to hone your skills in HTML and CSS while making a page that’s both beautiful and user-friendly.
 
 # Project Demo
-  - Check out the live demo of the landing page: Live Demo
+  - Check out the live demo of the landing page: (Live Demo)[https://sujalthakkar20.github.io/CODSOFT_LANDING-PAGE/]
 
 # Video Previews:
   - Laptop View: Watch Now
