@@ -13,4 +13,4 @@
 
 # Video Previews:
   - Laptop View: [Watch Now](https://sujalthakkar20.github.io/CODSOFT_LANDING-PAGE/Task-1_video.mp4)
-  - Phone View: Watch Now
+
